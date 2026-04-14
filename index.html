@@ -14,7 +14,7 @@
         }
 
         .container {
-            max-width: 300px;
+            max-width: 520px;
             margin: 28px auto;
             padding: 20px;
         }
@@ -22,10 +22,12 @@
         h1 {
             font-size: 2em;
             margin: 0 0 20px 0;
+            text-align: center;
         }
 
         .links {
             margin-bottom: 28px;
+            text-align: center;
         }
 
         .links a {
@@ -46,17 +48,19 @@
         .thumb-list {
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: 0;
         }
 
         .thumb-list a {
             display: block;
+            line-height: 0;
         }
 
         .thumb-list img {
             width: 100%;
             display: block;
-            border-radius: 10px;
+            margin: 0;
+            border-radius: 0;
         }
 
         footer {
@@ -64,6 +68,14 @@
             color: #666;
             font-size: 12px;
             text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                max-width: 100%;
+                margin: 20px auto;
+                padding: 16px;
+            }
         }
     </style>
 </head>
@@ -78,20 +90,16 @@
         </div>
 
         <div class="thumb-list">
-            <a href="https://www.milbel.com/p/you-need-to-be-neanderthal-maxxing" target="_blank" rel="noopener noreferrer">
-                <img src="maxxing-cover-final.png" alt="Article 1 thumbnail">
+            <a href="https://milbel.com/p/you-need-to-be-neanderthal-maxxing" target="_blank" rel="noopener noreferrer">
+                <img src="maxxing-cover-final.png" alt="Neanderthal Maxxing">
             </a>
 
-            <a href="https://www.milbel.com/p/the-mythology-of-teeth" target="_blank" rel="noopener noreferrer">
-                <img src="teeth-cover-final copy.png" alt="Article 2 thumbnail">
+            <a href="https://milbel.com/p/the-mythology-of-teeth" target="_blank" rel="noopener noreferrer">
+                <img src="teeth-cover-site.png" alt="The Mythology of Teeth">
             </a>
 
-            <a href="https://www.milbel.com/p/the-lost-book-of-shinto" target="_blank" rel="noopener noreferrer">
-                <img src="kunio.cover-final2.png" alt="Article 3 thumbnail">
-            </a>
-
-            <a href="https://www.milbel.com/p/immortality-rites-in-the-ancient" target="_blank" rel="noopener noreferrer">
-                <img src="cover5.2.jpg" alt="Article 4 thumbnail">
+            <a href="https://milbel.com/p/immortality-rites-in-the-ancient" target="_blank" rel="noopener noreferrer">
+                <img src="cover5.2.jpg" alt="Immortality Rites in the Ancient World">
             </a>
         </div>
 
