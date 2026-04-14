@@ -12,34 +12,53 @@
             background-color: white;
             text-align: left;
         }
+
         .container {
             max-width: 300px;
-            margin: 50px auto;
+            margin: 28px auto;
             padding: 20px;
         }
+
         h1 {
             font-size: 2em;
+            margin: 0 0 20px 0;
         }
+
+        .links {
+            margin-bottom: 28px;
+        }
+
         .links a {
-            display: block;
-            margin: 10px 0;
             text-decoration: none;
             color: #ff0000;
             font-size: 1em;
         }
+
         .links a:hover {
             text-decoration: underline;
         }
-        .image-container {
-            margin-top: 20px;
+
+        .separator {
+            color: #999;
+            margin: 0 8px;
         }
-        .image-container img {
-            width: 100%;
-            max-width: 800px;
+
+        .thumb-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .thumb-list a {
             display: block;
-            margin: 10px 0;
+        }
+
+        .thumb-list img {
+            width: 100%;
+            display: block;
             border-radius: 10px;
         }
+
         footer {
             margin: clamp(40px, 8vh, 80px) 0 20px;
             color: #666;
@@ -51,15 +70,31 @@
 <body>
     <div class="container">
         <h1>milbel</h1>
-        <p>exploring the origins of religious thought through prehistoric ritualism, mythology, and psychology.</p>
+
         <div class="links">
             <a href="https://milbel.com" target="_blank" rel="noopener noreferrer">neanderthal paganism</a>
+            <span class="separator">|</span>
             <a href="https://x.com/milbel_" target="_blank" rel="noopener noreferrer">x</a>
         </div>
-        <div class="image-container">
-            <img src="girl-on-bear.png" alt="Image 1">
-            <!-- <img src="two-hands.png" alt="Image 2"> -->
+
+        <div class="thumb-list">
+            <a href="https://www.milbel.com/p/you-need-to-be-neanderthal-maxxing" target="_blank" rel="noopener noreferrer">
+                <img src="maxxing-cover-final.png" alt="Article 1 thumbnail">
+            </a>
+
+            <a href="https://www.milbel.com/p/the-mythology-of-teeth" target="_blank" rel="noopener noreferrer">
+                <img src="teeth-cover-final copy.png" alt="Article 2 thumbnail">
+            </a>
+
+            <a href="https://www.milbel.com/p/the-lost-book-of-shinto" target="_blank" rel="noopener noreferrer">
+                <img src="kunio.cover-final2.png" alt="Article 3 thumbnail">
+            </a>
+
+            <a href="https://www.milbel.com/p/immortality-rites-in-the-ancient" target="_blank" rel="noopener noreferrer">
+                <img src="cover5.2.jpg" alt="Article 4 thumbnail">
+            </a>
         </div>
+
         <footer>© 2026 milbel</footer>
     </div>
 </body>
