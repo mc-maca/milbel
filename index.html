@@ -10,25 +10,35 @@
             margin: 0;
             padding: 0;
             background-color: white;
-            text-align: left;
+            text-align: center;
         }
 
         .container {
             max-width: 520px;
-            margin: 28px auto;
+            margin: 40px auto;
             padding: 20px;
         }
 
         h1 {
             font-size: 2em;
             font-weight: 500;
-            margin: 0 0 18px 0;
-            text-align: center;
+            margin: 0 0 24px 0;
+        }
+
+        .hero-image {
+            margin: 40px 0 32px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            width: 100%;
+            max-width: 420px;
+            height: auto;
         }
 
         .links {
-            margin-bottom: 16px;
-            text-align: center;
+            margin-top: 10px;
         }
 
         .links a {
@@ -46,36 +56,20 @@
             margin: 0 8px;
         }
 
-        .thumb-list {
-            display: flex;
-            flex-direction: column;
-            gap: 0;
-        }
-
-        .thumb-list a {
-            display: block;
-            line-height: 0;
-        }
-
-        .thumb-list img {
-            width: 100%;
-            display: block;
-            margin: 0;
-            border-radius: 0;
-        }
-
         footer {
             margin: clamp(40px, 8vh, 80px) 0 20px;
             color: #666;
             font-size: 12px;
-            text-align: center;
         }
 
         @media (max-width: 600px) {
             .container {
-                max-width: 100%;
-                margin: 20px auto;
+                margin: 24px auto;
                 padding: 16px;
+            }
+
+            .hero-image img {
+                max-width: 90%;
             }
         }
     </style>
@@ -84,46 +78,17 @@
     <div class="container">
         <h1>milbel</h1>
 
+        <div class="hero-image">
+            <img src="transparent-logo-white.png" alt="milbel symbol">
+        </div>
+
         <div class="links">
             <a href="https://milbel.com" target="_blank" rel="noopener noreferrer">neanderthal paganism</a>
             <span class="separator">|</span>
             <a href="https://x.com/milbel_" target="_blank" rel="noopener noreferrer">x</a>
         </div>
 
-        <div class="thumb-list">
-            <a href="https://milbel.com/p/you-need-to-be-neanderthal-maxxing" target="_blank" rel="noopener noreferrer">
-                <img src="maxxing-cover-final.png" alt="Neanderthal Maxxing">
-            </a>
-
-            <a href="https://milbel.com/p/the-mythology-of-teeth" target="_blank" rel="noopener noreferrer">
-                <img src="teeth-cover-final copy.png" alt="The Mythology of Teeth">
-            </a>
-            
-              <a href="https://www.milbel.com/p/the-lost-book-of-shinto" target="_blank" rel="noopener noreferrer">
-                <img src="kunio-cover-final2.png" alt="The Lost Book of Shinto">
-            </a>
-
-            <a href="https://milbel.com/p/immortality-rites-in-the-ancient" target="_blank" rel="noopener noreferrer">
-                <img src="cover5.2.jpg" alt="Immortality Rites in the Ancient World">
-            </a>
-
-             <a href="https://www.milbel.com/p/did-neanderthals-influence-christianity" target="_blank" rel="noopener noreferrer">
-                <img src="cover5.2.jpg" alt="Did Neanderthals Influence Christianity?">
-            </a>
-
-             <a href="https://www.milbel.com/p/why-did-neanderthals-worship-the" target="_blank" rel="noopener noreferrer">
-                <img src="cover5.2.jpg" alt="Why Did Neanderthals Worship the Bear?">
-            </a>
-
-            <a href="https://www.milbel.com/p/the-ancient-myth-of-the-sacred-twin" target="_blank" rel="noopener noreferrer">
-                <img src="cover5.2.jpg" alt="The Ancient Myth of the Sacred Twin">
-            </a>
-        </div>
-
         <footer>© 2026 milbel</footer>
-    </div>
-</body>
-</html>
     </div>
 </body>
 </html>
